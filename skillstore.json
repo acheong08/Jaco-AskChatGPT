@@ -2,16 +2,28 @@
   "architectures": ["amd64"],
   "author": "DANBER",
   "languages": [
-    "de"
+    "de",
+    "en",
+    "es",
+    "fr"
   ],
   "name": {
-    "de": "Frage ChatGPT"
+    "de": "Frage ChatGPT",
+    "en": "Ask ChatGPT",
+    "es": "Pregunta a ChatGPT",
+    "fr": "Demandez à ChatGPT"
   },
   "description_short": {
-    "de": "Ich habe eine Frage: ..."
+    "de": "Ich habe eine Frage: ...",
+    "en": "I have a question: ...",
+    "es": "Tengo una pregunta: ...",
+    "fr": "J'ai une question: ..."
   },
   "description_long": {
-    "de": "Frage ChatGPT eine beliebige Frage. Benötigt einen <i>OpenAI</i>-Account und einige manuelle Setup-Schritte, siehe dazu die <i>config</i>-Datei."
+    "de": "Frage ChatGPT eine beliebige Frage. Benötigt einen <i>OpenAI</i>-Account und einige manuelle Setup-Schritte, siehe dazu die <i>config</i>-Datei.",
+    "en": "Ask ChatGPT an arbitrary question. An <i>OpenAI</i> account and some manual setup steps are required, see the <i>config</i> file.",
+    "es": "Hágale a ChatGPT una pregunta arbitraria. Se requiere una cuenta <i>OpenAI</i> y algunos pasos de configuración manual, consulte el archivo <i>config</i>.",
+    "fr": "Posez une question arbitraire à ChatGPT. Un compte <i>OpenAI</i> et quelques étapes de configuration manuelle sont nécessaires, voir le fichier <i>config</i>."
   },
   "symbol": "spring-16.png",
   "color": "#2adcce"
