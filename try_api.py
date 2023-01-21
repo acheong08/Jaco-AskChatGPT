@@ -1,7 +1,8 @@
 import os
 
-from jacolib import assistant
 from revChatGPT.ChatGPT import Chatbot
+
+from jacolib import assistant
 
 # ==================================================================================================
 
