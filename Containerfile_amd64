@@ -1,0 +1,19 @@
+FROM master_base_image_amd64
+ARG DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get upgrade -y
+
+# Virtual display
+RUN apt-get update && apt-get install -y --no-install-recommends xvfb
+
+# Install chrome-browser
+RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+RUN apt-get update && apt-get install -y --no-install-recommends ./google-chrome-stable_current_amd64.deb
+
+# Install inofficial ChatGPT-API
+RUN pip3 install --no-cache-dir --upgrade revChatGPT
+
+# Clear cache to save space, only has an effect if image is squashed
+RUN apt-get autoremove -y \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/*

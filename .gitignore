@@ -1,0 +1,6 @@
+assistant.py
+config.yaml
+
+venv/*
+.idea/*
+__pycache__/*

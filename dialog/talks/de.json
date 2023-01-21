@@ -1,0 +1,14 @@
+{
+  "request_running": [
+    "Ich arbeite noch an deiner letzten Anfrage.",
+    "Sei mal nicht so ungeduldig, ich arbeite doch schon daran."
+  ],
+  "wait_for_answer": [
+    "Einen Moment bitte.",
+    "Deine Anfrage wird bearbeitet.",
+    "Lass mich kurz überlegen."
+  ],
+  "an_error_occurred": [
+    "Es ist leider ein Fehler aufgetreten!"
+  ]
+}

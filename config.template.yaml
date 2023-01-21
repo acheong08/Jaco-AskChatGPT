@@ -1,0 +1,24 @@
+# Change these values to fit your needs
+user:
+
+  # Insert data for one of the authentication options
+  # See: https://github.com/acheong08/ChatGPT/wiki/Setup
+  session_token: ""
+  email: ""
+  password: ""
+  captcha: ""
+  isMicrosoftLogin: false
+
+# Only change those if you know what you do
+system:
+  extra_container_flags: ""
+  has_action: true
+  needs_internet_access: true
+
+  # List of topics the skill has access to
+  topics_read:
+    - "ask_question"
+    - "Jaco/Skills/UserAnswer"
+    - "Jaco/Intents/GreedyText"
+  topics_write:
+    - "Jaco/Skills/SayText"

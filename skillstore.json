@@ -1,0 +1,18 @@
+{
+  "architectures": ["amd64"],
+  "author": "DANBER",
+  "languages": [
+    "de"
+  ],
+  "name": {
+    "de": "Frage ChatGPT"
+  },
+  "description_short": {
+    "de": "Ich habe eine Frage: ..."
+  },
+  "description_long": {
+    "de": "Frage ChatGPT eine beliebige Frage. Benötigt einen <i>OpenAI</i>-Account und einige manuelle Setup-Schritte, siehe dazu die <i>config</i>-Datei."
+  },
+  "symbol": "spring-16.png",
+  "color": "#2adcce"
+}
