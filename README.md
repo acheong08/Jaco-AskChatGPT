@@ -1,3 +1,5 @@
+> # THIS IS A MIRROR. GO TO https://gitlab.com/DANBER/Jaco-AskChatGPT FOR THE REPOSITORY
+
 # Jaco-AskChatGPT
 
 Ask arbitrary questions to [ChatGPT](https://chat.openai.com/). \
